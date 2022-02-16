@@ -28,6 +28,7 @@ require __DIR__.'/auth.php';
 
 Route::get('get_data', [ScrapeController::class, 'get_data']);
 
+//  الراوتات مش راضية تشتغل معي مش عرف ليش
 
 // Route::namespace('Admin')
 //     ->prefix('admin')
