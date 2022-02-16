@@ -52,7 +52,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                   foreach ($homes as home) 
+                                   {{ --foreach ($homes as home) --}}
                                     <tr>
 
                                         <td></td>
@@ -69,7 +69,7 @@
                                     </tr>
 
                                     <x-edit-home :home="$home"/>
-                                   @endforeach
+                                {{--   @endforeach --}}
                                 </tbody>
 
                             </table>
