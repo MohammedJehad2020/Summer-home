@@ -52,7 +52,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                   {{ --foreach ($homes as home) --}}
+                                   {{--foreach ($homes as home) --}}
                                     <tr>
 
                                         <td></td>
@@ -62,13 +62,13 @@
                                         <td></td>
                                         <td>
 
-                                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#edit{{ $home->id }}" title="Edit"><i class="fa fa-edit"></i></button>
+                                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#edit{{-- $home->id --}}" title="Edit"><i class="fa fa-edit"></i></button>
                                             <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#" title="Delete"><i class="fa fa-trash"></i></button>
                                         
                                         </td>
                                     </tr>
 
-                                    <x-edit-home :home="$home"/>
+                                    {{-- <x-edit-home :home="$home" --}}
                                 {{--   @endforeach --}}
                                 </tbody>
 
